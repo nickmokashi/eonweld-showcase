@@ -66,7 +66,9 @@ Landscape priorities are a game abstraction based on institutions, inequality, p
 - **ElevenLabs:** enter your own API key and existing cloned voice ID under Voice announcements. There is also a device voice option that uses no ElevenLabs credits.
 - Announcements use short templates of actual world events, with no extra AI writing request. Defaults are major events at most once every three minutes, at most 320 characters per update, and a hard 1,000-character allowance shared across the server run.
 - Replay uses cached audio. Failed requests are counted conservatively and do not automatically retry. Actual credit charges depend on the provider plan and voice.
-- Keys and cached speech stay in server memory; they are not written into world saves. Re-enter keys after closing the game server.
+- Keys and cached speech stay in server memory; they are not written into world saves. A key entered in the game lasts until the server closes; to keep them across restarts, set them once in your own environment (`ANTHROPIC_API_KEY`, `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID`), where the game reads them at start and never writes them.
+- Choosing a voice speaks the latest news at once, then at most once per interval while time runs. "In whose words" lets the voice read the narrator's own line about the weightiest new thing, as a metered telling, instead of the record's plain words.
+- The act chip in the dock always says what clicking the map does now, with the settings already chosen, and carries the Apply button, so every window can be closed without losing the act in hand.
 
 ## Release status
 
