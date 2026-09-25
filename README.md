@@ -64,6 +64,8 @@ The chronicle stores observed events and their causes. What actually happened st
 
 Landscape priorities are a game abstraction based on institutions, inequality, population pressure and recent war. They are not an AI judgment of a species or culture. Figures aggregate people; battle formations illustrate recorded outcomes rather than individually simulated soldiers.
 
+**Tested by running it, not by reading it.** The rules are red-teamed by letting worlds run for ten thousand years and attacking them: asking the same thing every three years for three centuries, weighing what the record never lets go of, rebuilding older rules from the repository's history and running the same worlds under them so every number is a comparison. The second such pass (September 25, 2026) found that travelling fevers never burned out, so every world had lived at three fifths of what its land could feed with no hunger and no wars; that war scars, once people were crowded again, stripped the soil to nothing; that governments had cancelled the slow concentration of wealth; and that counsel could be farmed. All of it is fixed and pinned in tests, and the record of what was found is kept with the rules. Each finding was made by AI and fixed by AI, under the author's direction.
+
 ## Optional AI and voice
 
 - **Anthropic:** add your own API key in Settings & keys → Narrator key for optional tellings. Ordinary play needs no model calls.
@@ -76,6 +78,6 @@ Landscape priorities are a game abstraction based on institutions, inequality, p
 
 ## Release status
 
-Local playable build, rules **13.0**, September 24, 2026. This showcase is prepared for review; source-code publication and a public game download are separate future decisions. No API credentials, player save files, or private development records are included here.
+Local playable build, rules **13.2**, September 25, 2026. This showcase is prepared for review; source-code publication and a public game download are separate future decisions. No API credentials, player save files, or private development records are included here.
 
 Provider connections were verified with local test doubles to avoid paid calls. Live cloned-voice quality has not been tested with a real key.
