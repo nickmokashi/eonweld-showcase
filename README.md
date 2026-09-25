@@ -47,6 +47,10 @@ Every world keeps one continuous history, written from its own record from year 
 <tr><td><strong>The book at year 600.</strong> Seven chapters so far, following the present. The conclusions are arithmetic over the record; no model writes any of it.</td><td><strong>Every hand adjustable.</strong> Reach, strength and years for the weather; a stone's size; how many a new people are. Every window stays where you put it while you act.</td></tr>
 </table>
 
+## Counsel: they decide
+
+You rule nobody, but you can put a course in front of a people: settle that land, make peace with that realm, make war on it, open your trade, keep granaries, leave this failing place, take up that form of rule. They weigh it against how they remember you, how much they believe you act at all, their own temper, and whether it answers what they are facing, and the record says whether they heeded or refused, and why. A generation later the outcome is judged by what happened to them, and they remember your counsel as a kindness or a monster's trick from then on. Underneath, realms that outgrow their land now visibly decide between war, leaving and enduring, with their reasons, before the war or the migration that follows.
+
 ## Governments, peoples and the world's settings
 
 - **Fifteen forms of rule, seven never tried.** Each is six dials (who takes part, how much is decided at the centre, how much is given back, how much is known, how much is done by force, how readily it changes). A realm comes to the form that fits its circumstances, and every form buys something and costs something: cohesion, how many it can govern, how wealth gathers, what the treasury takes, how hard it fights, how likely a revolt is, how much its own records lie. Trade follows the form: open, taxed, or shut. The workshop lets you charter a form of your own design; the world decides who takes it up.
