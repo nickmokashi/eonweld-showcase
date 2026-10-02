@@ -27,12 +27,29 @@ These are unaltered screenshots captured while playing a separate test world. No
 - **Watch migration and conquest.** Population groups and marching trails represent real transfers. Battle formations show opposing forces and the winner; conquered towns change ownership.
 - **See societies change their land.** Crowding, extraction and war strip vegetation and exhaust soil. Stewardship and abandonment allow recovery. Long-damaged slopes erode into lowlands, changing height and drainage. Vegetation is visible on the ordinary map, with significant changes recorded in the chronicle.
 
+- **Watch armies and ships.** Before a battle is fought, the attacking host marches from home to the field on the map, by ship if the way is over water. Voyages cross the sea as ships, and boats ply every sea route.
+
 <table>
 <tr>
 <td width="50%"><img src="assets/disease-controls.png" alt="Choosing a disease name, transmission route, annual mortality, spread and infectious duration" width="440"></td>
-<td width="50%"><img src="assets/voice-settings.png" alt="Optional ElevenLabs key and cloned voice ID fields, three-minute announcement spacing, and a 1000-character spending cap" width="440"></td>
+<td width="50%"><img src="assets/pointer-realm.png" alt="The pointer over a realm: a label beside it names the realm, its form of rule and its people, and a card tells the realm in full sentences" width="440"></td>
 </tr>
-<tr><td><strong>Your disease, your settings.</strong> Outcomes depend on the people and connections it reaches.</td><td><strong>Your voice, optional.</strong> Announcements start off. The game works without either API service.</td></tr>
+<tr><td><strong>Your disease, your settings.</strong> Outcomes depend on the people and connections it reaches.</td><td><strong>Point at anything.</strong> The pointer names whatever is under it for the map that is open, and a click tells it in full.</td></tr>
+</table>
+
+## Point, read, listen
+
+- **The pointer.** It is the hand the game opens with. Point at the map and a label beside it says what is there for whichever map is open: the land, its realm and form of rule, its people and their kind, belief, crowding, fertility, worn land, waters. Click and a card tells it in whole sentences, every number said with what it counts. Click a button or a window with the pointer and it says what that is for.
+- **Speech only when you ask.** The voice reads what the pointer was clicked on, and nothing else. It never talks on its own. The device voice is free; an ElevenLabs voice is optional and capped.
+- **Notices that wait their turn.** Only wars and who won them, new peoples, and peoples lost from the world get a notice. One shows at a time, the rest wait, and the whole list can be read in the Notices window. Each comes with a sound made in the browser: drums for an army on the march, a horn when a war is won, bells for a new people, a tolling bell for a people gone.
+- **A summary every five hundred years.** Time stops and the chronicle sets down what came to pass, what now is, and what is likely to come, in the old chronicle's voice, with a button to have it read aloud. What is likely to come is read only from pressures the world already holds: realms that have resolved on war, towns in hunger, sickness abroad. It can be turned off, or asked for at any time.
+- **Crafts over time.** Each people's window lists every craft they gained and lost, and why, and says when they are starting over.
+
+<table>
+<tr>
+<td width="100%"><img src="assets/age-summary.png" alt="The age summary over the map: what hath passed, what now is, and what is like to come, with Read aloud and Close buttons" width="880"></td>
+</tr>
+<tr><td><strong>Five hundred years, summed up.</strong> Written from the world's own record by plain rules. No model writes any of it.</td></tr>
 </table>
 
 ## A history book, written as it happens
@@ -69,15 +86,14 @@ Landscape priorities are a game abstraction based on institutions, inequality, p
 ## Optional AI and voice
 
 - **Anthropic:** add your own API key in Settings & keys → Narrator key for optional tellings. Ordinary play needs no model calls.
-- **ElevenLabs:** enter your own API key and existing cloned voice ID under Voice announcements. There is also a device voice option that uses no ElevenLabs credits.
-- Announcements use short templates of actual world events, with no extra AI writing request. Defaults are major events at most once every three minutes, at most 320 characters per update, and a hard 1,000-character allowance shared across the server run.
+- **ElevenLabs:** enter your own API key and existing cloned voice ID under Voice. There is also a device voice option that uses no ElevenLabs credits.
+- The voice reads only what you click with the pointer, or an age's summary when you press Read aloud. The words are the game's own, with no AI writing request. Each request is at most 1,500 characters, and a hard character allowance, 1,000 by default, is shared across the server run.
 - Replay uses cached audio. Failed requests are counted conservatively and do not automatically retry. Actual credit charges depend on the provider plan and voice.
 - Keys and cached speech stay in server memory; they are not written into world saves. A key entered in the game lasts until the server closes; to keep them across restarts, set them once in your own environment (`ANTHROPIC_API_KEY`, `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID`), where the game reads them at start and never writes them.
-- Choosing a voice speaks the latest news at once, then at most once per interval while time runs. "In whose words" lets the voice read the narrator's own line about the weightiest new thing, as a metered telling, instead of the record's plain words.
 - The act chip in the dock always says what clicking the map does now, with the settings already chosen, and carries the Apply button, so every window can be closed without losing the act in hand.
 
 ## Release status
 
-Local playable build, rules **13.2**, September 25, 2026. This showcase is prepared for review; source-code publication and a public game download are separate future decisions. No API credentials, player save files, or private development records are included here.
+Local playable build, rules **13.2**, with the pointer, notices, sounds and age summary added October 2, 2026. This showcase is prepared for review; source-code publication and a public game download are separate future decisions. No API credentials, player save files, or private development records are included here.
 
 Provider connections were verified with local test doubles to avoid paid calls. Live cloned-voice quality has not been tested with a real key.
