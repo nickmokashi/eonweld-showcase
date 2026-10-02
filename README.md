@@ -28,6 +28,10 @@ These are unaltered screenshots captured while playing a separate test world. No
 - **See societies change their land.** Crowding, extraction and war strip vegetation and exhaust soil. Stewardship and abandonment allow recovery. Long-damaged slopes erode into lowlands, changing height and drainage. Vegetation is visible on the ordinary map, with significant changes recorded in the chronicle.
 
 - **Paint the weather, and the water answers.** Rain and drought are painted on to the country with a brush or a rectangle, like the land. Enough rain on a river's country and the river bursts its banks on to the valley floor (silt on the fields after); a stream in steep country floods in a flash. A hard drought drops the rivers a class and dries the shallow lakes, and the fields, the fish and the mills feel it until the waters come back. Rain greens the ground and drought browns it. A quake at sea or on the shore sends a wave along the coast the year after, and a shaken hillside slides. The world's own storms and quakes are rare, and it never floods or dries its own water without the god's weather over it.
+- **Worship, and prayers you can answer.** A people struck by famine, war, plague or flood turn to the god, and their devotion adds to the god's power each year, as the research on religion after disasters, war and risky harvests suggests. They pray for rain, bread, healing or deliverance; answer with the right hand within a generation and they remember it as a kindness, or hear nothing and the god's name weighs a little less. Sending them suffering never pays: a drought always costs more than the worship it brings back.
+- **Wars you can watch and tip.** A realm declares war and its host marches from the capital for years before the battle, by sea if it must. Favour either side, send a storm on a host in the field so it turns home, or send dread into a realm. By decree, lead a host yourself.
+- **A modern age, where the world allows one.** Worlds with coal, oil and a stone that splits can reach printing, powder, steel, engines, railways, steamships, chemistry, industry, flight and rockets. The engines' smoke dims every harvest and, past its marks, the sea rises over the shore.
+- **The god's fire.** Only the god can drop it, only once some people have learned to split the stone, and it costs more than anything. Every people on earth remember it as a monster's act, and nobody takes the god's word for a generation after.
 - **Watch armies and ships.** Before a battle is fought, the attacking host marches from home to the field on the map, by ship if the way is over water. Voyages cross the sea as ships, and boats ply every sea route.
 
 <table>
@@ -38,9 +42,9 @@ These are unaltered screenshots captured while playing a separate test world. No
 <tr><td><strong>Your disease, your settings.</strong> Outcomes depend on the people and connections it reaches.</td><td><strong>Point at anything.</strong> The pointer names whatever is under it for the map that is open, and a click tells it in full.</td></tr>
 <tr>
 <td width="50%"><img src="assets/painted-rain.png" alt="The Rain hand's settings beside the map: a round brush of seven, six hundred per mille, and the chronicle recording the painted rain and a flash flood in the steep country" width="440"></td>
-<td width="50%"></td>
+<td width="50%"><img src="assets/host-marching.png" alt="Two wars declared: one realm's host marches on foot toward its neighbour while another's sails across the sea, each labelled with whom it marches on; the chronicle beside it records the declarations and the years until each host is in the field" width="440"></td>
 </tr>
-<tr><td><strong>Rain, painted.</strong> Three years after this stroke the chronicle has a flash flood in the steep country, and the valley floods when the river's whole country is under it.</td><td></td></tr>
+<tr><td><strong>Rain, painted.</strong> Three years after this stroke the chronicle has a flash flood in the steep country, and the valley floods when the river's whole country is under it.</td><td><strong>Wars that march.</strong> Two hosts in the field at once, one by land and one by sea, years before their battles. Either can be favoured, routed, or, by decree, led.</td></tr>
 </table>
 
 ## Point, read, listen
@@ -100,6 +104,6 @@ Landscape priorities are a game abstraction based on institutions, inequality, p
 
 ## Release status
 
-Local playable build, rules **14.0** (water as a cause), with the pointer, notices, sounds and age summary, October 2, 2026. This showcase is prepared for review; source-code publication and a public game download are separate future decisions. No API credentials, player save files, or private development records are included here.
+Local playable build, rules **14.4**, October 2, 2026: water as a cause, worship and prayer, wars that march, the modern age and the god's fire, with the pointer, notices, sounds and age summary. This showcase is prepared for review; source-code publication and a public game download are separate future decisions. No API credentials, player save files, or private development records are included here.
 
 Provider connections were verified with local test doubles to avoid paid calls. Live cloned-voice quality has not been tested with a real key.
