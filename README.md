@@ -27,6 +27,7 @@ These are unaltered screenshots captured while playing a separate test world. No
 - **Watch migration and conquest.** Population groups and marching trails represent real transfers. Battle formations show opposing forces and the winner; conquered towns change ownership.
 - **See societies change their land.** Crowding, extraction and war strip vegetation and exhaust soil. Stewardship and abandonment allow recovery. Long-damaged slopes erode into lowlands, changing height and drainage. Vegetation is visible on the ordinary map, with significant changes recorded in the chronicle.
 
+- **Paint the weather, and the water answers.** Rain and drought are painted on to the country with a brush or a rectangle, like the land. Enough rain on a river's country and the river bursts its banks on to the valley floor (silt on the fields after); a stream in steep country floods in a flash. A hard drought drops the rivers a class and dries the shallow lakes, and the fields, the fish and the mills feel it until the waters come back. Rain greens the ground and drought browns it. A quake at sea or on the shore sends a wave along the coast the year after, and a shaken hillside slides. The world's own storms and quakes are rare, and it never floods or dries its own water without the god's weather over it.
 - **Watch armies and ships.** Before a battle is fought, the attacking host marches from home to the field on the map, by ship if the way is over water. Voyages cross the sea as ships, and boats ply every sea route.
 
 <table>
@@ -35,6 +36,11 @@ These are unaltered screenshots captured while playing a separate test world. No
 <td width="50%"><img src="assets/pointer-realm.png" alt="The pointer over a realm: a label beside it names the realm, its form of rule and its people, and a card tells the realm in full sentences" width="440"></td>
 </tr>
 <tr><td><strong>Your disease, your settings.</strong> Outcomes depend on the people and connections it reaches.</td><td><strong>Point at anything.</strong> The pointer names whatever is under it for the map that is open, and a click tells it in full.</td></tr>
+<tr>
+<td width="50%"><img src="assets/painted-rain.png" alt="The Rain hand's settings beside the map: a round brush of seven, six hundred per mille, and the chronicle recording the painted rain and a flash flood in the steep country" width="440"></td>
+<td width="50%"></td>
+</tr>
+<tr><td><strong>Rain, painted.</strong> Three years after this stroke the chronicle has a flash flood in the steep country, and the valley floods when the river's whole country is under it.</td><td></td></tr>
 </table>
 
 ## Point, read, listen
@@ -94,6 +100,6 @@ Landscape priorities are a game abstraction based on institutions, inequality, p
 
 ## Release status
 
-Local playable build, rules **13.2**, with the pointer, notices, sounds and age summary added October 2, 2026. This showcase is prepared for review; source-code publication and a public game download are separate future decisions. No API credentials, player save files, or private development records are included here.
+Local playable build, rules **14.0** (water as a cause), with the pointer, notices, sounds and age summary, October 2, 2026. This showcase is prepared for review; source-code publication and a public game download are separate future decisions. No API credentials, player save files, or private development records are included here.
 
 Provider connections were verified with local test doubles to avoid paid calls. Live cloned-voice quality has not been tested with a real key.
